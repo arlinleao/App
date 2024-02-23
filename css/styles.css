@@ -1,0 +1,54 @@
+
+
+/*@import url('http://automacaohouseonlinee.sdserver28.com/demo/css/styles.css');*/
+
+*{margin: 0; padding: 0; }
+body{ background: #222; font-family: 'Roboto', sans-serif; font-size:16px; color:#fff; overflow:hidden;}
+
+.content{position: absolute; background: #000 url('../images/fundo-iluminacao.png'); width: 800px; height: 600px; left: 15%;}
+.grade{ background: url('../images/grade.png') no-repeat top center; position:absolute; width: 100%; height: 100%;}
+
+.title-lateral{ position:absolute; right:-110px; top:10px; width:100px; height:600px; 
+		background:transparent url('../images/title-lateral.png') no-repeat top left;}
+
+.menu-lateral{position: absolute; width: 180px; height: 100%; background: #222; left: 5%}
+.ponteiro{position:absolute;top:168px;left: 220px;cursor: pointer;margin: 0;padding: 0;}
+.ponteiro img{width: 20px; height: 40px;}
+
+.apresentacao{position: absolute; width: 350px; height: 250px; top:50px; left: 300px; padding: 30px; border: 2px solid #eee; border-radius: 20px;}
+.apresentacao h1{}
+.apresentacao h2{ font-style: italic; font-size: 18px;}
+.apresentacao p{ }
+
+.turma{ margin: 10px 0 0 40px;}
+.turma p {font-size:30px; font-weight: bold; border-bottom: 1px solid #fff  }
+.turma span{ font-size: small; color:#999;}
+
+.opcoes{margin-top:100px;}
+.opcoes a{color:#fff; text-decoration: none;}
+.opcoes ul li{ list-style: none; line-height: 30px; padding: 5px 0 5px 10px; border-bottom: 1px solid #555; 
+			  border-left: 3px solid #f19700; cursor: pointer;}
+.opcoes ul li:hover{ background: #f19700;}
+.footer{ position:absolute; bottom:0px; padding: 20px; width: 140px; background: #111; }
+.footer:hover{background: #f19700;}
+
+.titulo-nav{position: relative; width: 150px; background: #222; float: right; padding: 15px; top:410px; cursor: pointer}
+.titulo-nav:hover{background: #f19700;}
+
+ .dashboard{position: absolute; width: 480px; height: 400px; background: rgba(0,0,0,0.5); left: 250px; top: 20px;  padding: 30px;}
+
+ .gallery{display: none}
+ .gallery li { float: left; width: 80px; padding: 0.4em; margin: 0.8em 0.6em 0em 0; text-align: center; border-radius: 5px; list-style: none;cursor: pointer;}
+ .gallery li h5 { padding: 2px; margin: 0 0 0.4em; }
+ .gallery li img {padding: 10px;  background: #61533b;  border-bottom:5px solid #f19700; border-radius: 15px; width: 60px; height: 50px;}
+ .gallery li img:hover{ border-bottom:5px solid #f30;}
+
+ .load{ display:none; z-index:6; position: absolute; width: 150px; height: 30px; background: rgba(2,2,2,0.7);
+ 		left: 580px;  top:150px; border-radius: 20px; padding: 50px;}
+ .load img{ display: inline-block;}
+ .load span{ margin-left: 20px; }
+
+
+
+ 
+         
